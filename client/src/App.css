@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f6f5ff;
+}
+.container{
+    padding: 10px;
+    max-width: fit-content;
+    margin: 50px auto;
+}
+.btn{
+    border: none;
+    padding: 7px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.add-btn{
+    background-color: #194064;
+    color: white;
+}
+.addContainer{
+    position: absolute;
+    background-color: rgba(0,0,0,0,2);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addContainer form{
+    width: 450px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 40px;
+    box-shadow: 5px 5px 10px #888888;
+    border-radius: 5px;
+}
+.addContainer form .close-btn{
+    margin-left: auto;
+    font-size: 30px;
+    cursor: pointer;
+}
+.addContainer form label{
+    font-size: 18px;
+    margin-top: 5px;
+}
+.addContainer form input{
+    font-size: 18px;
+    margin-top: 5px;
+    padding: 5px;
+}
+.addContainer form button{
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+.tableContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #c9c5c3;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #888888;
+}
+
+.tableContainer table thead tr{
+    background-color: #f0eaea;
+}
+.tableContainer table thead tr th,
+.tableContainer table tbody tr td{
+    min-width: 200px;
+    padding: 7px;
+}
+.tableContainer table tbody tr td{
+    border-top: 1px solid #c9c5c3;
+    text-align: center;
+}
+.tableContainer table tbody tr .btns{
+    display: flex;
+}
+.tableContainer table tbody tr td .edit-btn{
+    font-size: 25px;
+    color: rgba(255, 196, 0, 0.945);
+    margin-left: 50px;
+}
+.tableContainer table tbody tr td .delete-btn{
+    font-size: 25px;
+    color: red;
+    margin-left: 40px;
+}
+.dataIsNot{
+    text-align: center;
+}
+.pangination{
+    margin-left: 600px;
+}
+.prev, .next{
+  padding: 5px;
+  border: none;
+  background-color: blue;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 5px;
+}
+.next:hover{
+    background-color: red;
+}
+.prev:hover{
+    background-color: red;
+}
